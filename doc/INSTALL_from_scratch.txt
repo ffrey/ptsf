@@ -1,0 +1,8 @@
+# sfAdminDash
+! enable the module ! (on top of the plugin being automatically enabled)
+* copier le code d'inclusion des header/footer dans layout.php !!!
+
+# sfGuard
+* creer la bdd
+si sqlite : 
+  creer le fichier declare dans le dsn

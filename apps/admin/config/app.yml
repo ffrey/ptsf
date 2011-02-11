@@ -1,0 +1,14 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sf_admin_dash:
+    categories:
+      Utilisateurs:
+        items:
+          utilisateurs:
+            url:    guard_user
+          groupes:
+            url:    sf_guard_group
+    site:                         ptsf

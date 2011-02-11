@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="apps/admin/config"/>
+	<buildpathentry kind="src" path="apps/admin/lib"/>
+	<buildpathentry kind="src" path="apps/admin/templates"/>
+	<buildpathentry kind="src" path="config"/>
+	<buildpathentry kind="src" path="lib/form"/>
+	<buildpathentry kind="src" path="plugins/sfAdminDashPlugin/config"/>
+	<buildpathentry kind="src" path="plugins/sfAdminDashPlugin/lib"/>
+	<buildpathentry kind="src" path="plugins/sfAdminDashPlugin/modules/sfAdminDash/actions"/>
+	<buildpathentry kind="src" path="plugins/sfAdminDashPlugin/modules/sfAdminDash/lib"/>
+	<buildpathentry kind="src" path="plugins/sfAdminDashPlugin/modules/sfAdminDash/templates"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/config"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/lib"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/actions"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/lib"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardForgotPassword/actions"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardForgotPassword/lib"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardForgotPassword/templates"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardGroup/actions"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardGroup/lib"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardPermission/actions"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardPermission/lib"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardRegister/actions"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardRegister/lib"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardRegister/templates"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardUser/actions"/>
+	<buildpathentry kind="src" path="plugins/sfDoctrineGuardPlugin/modules/sfGuardUser/lib"/>
+	<buildpathentry kind="src" path="plugins/sfJqueryReloadedPlugin/lib/helper"/>
+	<buildpathentry kind="src" path="test/bootstrap"/>
+	<buildpathentry kind="src" path="web"/>
+	<buildpathentry kind="src" path="lib_symfony14"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>
