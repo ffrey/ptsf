@@ -11,4 +11,13 @@ all:
             url:    guard_user
           groupes:
             url:    sf_guard_group
-    site:                         ptsf
+      Medias:
+        items:
+          gestion:
+            url:  ly_media_asset
+    site: ptsf
+  lyMediaManager:
+    use_i18n: true
+    i18n_cultures:
+      en: English
+      fr: Francais

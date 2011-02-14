@@ -1,0 +1,7 @@
+# static text managing
+
+## objectif 
+développer un module permettant de facilement intégrer des textes statiques
+  
+## solutions
+* ! dans sfFormExtraPlugin, il y a un widget rich-text-editor (sfWidgetFormTextareaTinyMCE)

@@ -1,0 +1,39 @@
+# 2011 02 11 : énorme bug sur sfMediaBrowserPlugin !!!
+<= tout le dossier web a été vidé suite à demande de suppression d'un dossier !!!
+
+TODO : 
+* utiliser un système de versioning !!! (git ?)
+
+
+# sources
+- http://objetweb.fr/blog/index.php?post/2011/01/27/CMS-:-les-fonctions-de-base
+
+# contenu statique
+- gestion utilisateurs : users, groups, permissions,
+  sfGuard            : X
+  
+- multi-linguisme    : en cours
+  language-switching : X
+  translation        : X
+  form/doctrine      : to do !
+  
+- gestion des éléments statiques : texte, images, etc. depuis le backend,
+  => développer un module permettant de facilement intégrer des textes statiques 
+     @see TODO_static_text_managing.txt
+  
+  => intégrer un media manager : lyMediaManagerPlugin X
+  (sfMediaBrowserPlugin : trop buggé sous windows au -) 
+  (ATTENTION : sfAssetsLibrary is Propel dependent!)
+
+# développement
+- séparation view / logic : templates / model-controllers. : X (built-in symfony)
+
+- accés facile à la liste des méthodes disponibles dans la view : ? (du style de ce que Eclipse permet)
+
+# gestion technique
+- logging
+  => utiliser le logging symfony : comment injecter l'objet dans les models ? 
+
+- alerte : un syst doit permettre d'avertir d'anomalies. Ex. : envoi de mail lors de la capture d'exception / envoi de mail sur les logs apache (erreurs php)
+  => utiliser swiftMailer
+  
